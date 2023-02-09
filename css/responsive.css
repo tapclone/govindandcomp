@@ -288,7 +288,7 @@ header {
 }
 header .logo {
 	width: 100%;
-	padding: 20px 0px;
+	padding: 0px;
 	text-align: center;
 	border: none;
 }
@@ -422,9 +422,7 @@ header .navbar li {
 .sub-bnr h4 {
 	margin-top: 0px;
 }
-.sub-bnr {
-	min-height: 350px
-}
+
 #tabs {
 	margin-bottom: 30px;
 }
@@ -826,3 +824,30 @@ header .ownmenu {
 		}
 	
 	}
+
+@media (max-width:350px) {
+	.sub-bnr {
+		min-height: 200px;
+	}
+
+}
+
+@media (min-width:350px) and (max-width:500px) {
+	.sub-bnr {
+		min-height: 255px;
+	}
+
+}
+
+@media (min-width:500px) and (max-width:700px) {
+	.sub-bnr {
+		min-height: 310px;
+	}
+
+}
+@media (min-width:700px) and (max-width:800px) {
+	.sub-bnr {
+		min-height: 490px;
+	}
+
+}
