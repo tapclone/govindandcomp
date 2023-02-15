@@ -297,9 +297,27 @@ border-radius:8px;
    .item {
      width: 71% !important;
    }
- 
  }
 
+ @media (min-width:700px) and (max-width:1000px){ 
+.ownmenu ul.dropdown li a {
+		padding:10px !important;
+		font-size:10px;
+		
+		color: #ededed;
+		border-bottom:1px solid grey;	
+	}
+}
+
+@media (min-width:1000px) and (max-width:1199px){ 
+.ownmenu ul.dropdown li a {
+		padding:10px !important;
+		font-size:11px;
+		
+		color: #ededed;
+		border-bottom:1px solid grey;	
+	}
+}
   </style>
 </head>
 <body>
@@ -376,7 +394,7 @@ border-radius:8px;
   <div id="content"> 
     
     <!-- WHY CHOOSE US -->
-    <section class="welcome padding-top-150 padding-bottom-150">
+    <section class="welcome padding-top-150">
       <div class="container"> 
         
         <!-- INTRO SERVICES -->
@@ -394,11 +412,17 @@ border-radius:8px;
                           <caption><p style="font-size:20px;padding:14px;">Industrial & Warehouse Building Construction</p></caption>
                            
                         </div>
-                        <p style="text-align:justify;letter-spacing:1.2px;margin:0px 15px;">Our licensed engineers offer a proactive range of steel warehouse construction services.
+                        <p style="text-align:justify;letter-spacing:1.2px;margin:0px 15px;">
+                          Our licensed engineers offer a proactive range of steel warehouse construction services.
                           Warehouses are in high demand as e-commerce companies now need more space to keep up, with 329 million square feet of these projects reportedly under construction. 
+                          The design of the warehouse space should be planned to best accommodate business service requirements and the products to be stored/handled.
                           Call us to design your warehouse for safe storing ...
+                         
                         </p>
                         <p style="text-align:justify;letter-spacing:1.2px;margin:0px 15px;">We also provide efficient & affordable custom designed steel structures . 
+                          Industrial buildings are generally designed as an enclosure that provides functional space for internal
+                           activities with adequate headroom for the use of suspended equipment or overhead cranes as well as provision of office space or mezzanine floors.
+                          These buildings are chiefly made of steel structures and are prefabricated.
                           Call us today for all your industrial construction needs.    
                         </p>    
                         <br>
@@ -451,7 +475,7 @@ border-radius:8px;
       <div class="row"> 
         
         <div class="col-md-3">
-          <img  class="img-responsive" src="images/lh_header_001.png" alt="" width="30%">
+          <img  class="img-responsive" id="img-footer" src="images/lh_header_001.png" alt="" width="30%">
            <p style="font-size:15px;font-family: 'Segoe UI', Tahoma, Geneva">Govind & company steel builders and contractors is engaged in the design, fabrication and erection of specialized steel structures like spaceframes, PEB.
            </p>
         </div>
@@ -467,7 +491,7 @@ border-radius:8px;
               </p>
             </li>
             <li class="col-xs-12">
-              <p style="font-size:16px;font-family: 'Segoe UI', Tahoma, Geneva"><i class="fa fa-phone"></i> Call us :+91 9846270185
+              <p style="font-size:16px;font-family: 'Segoe UI', Tahoma, Geneva"><i class="fa fa-phone"></i> Call us :+91 9846270185<br>
                 <span style="margin-left:50px">+91 9846070185 </span>
               </p>
             </li>
