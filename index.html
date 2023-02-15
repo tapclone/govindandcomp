@@ -16,7 +16,8 @@
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/ionicons.min.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
-
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet" >
 
 <!-- Online Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -588,7 +589,15 @@ hr.main {
 	margin:20px 0;
 }
 
+.top-info .personal-info p {
+    margin: 0px;
+    font-family: Trebuchet MS;
+}
 
+.top-info .personal-info p {
+    color: black;
+    margin: 0px;
+}
 
 .mission {
 	text-align: center;
@@ -2714,11 +2723,31 @@ height:300px !important;
 }
 }
 
-@media (min-width:500px) and (max-width:800px) {
+@media (min-width:500px) and (max-width:600px) {
 div .row .items2 .item2 {
-width:95% !important;
+width:90% !important;
 display: block !important;
 height:300px !important;
+margin-left: 40px;
+}
+.row ul h3 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+}
+
+@media (min-width:600px) and (max-width:800px) {
+div .row .items2 .item2 {
+width:86% !important;
+display: block !important;
+height:300px !important;
+margin-left: 40px;
+}
+.row ul h3 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-left: 30px;
 }
 }
 
@@ -2873,6 +2902,28 @@ header {
 }
 }
 
+@media (min-width:600px) and (max-width:780px) {
+
+row {
+    
+    margin-left: 0px !important;
+}
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+//.items2 {
+	width: 90%;
+	margin: 0;
+	padding: 0;
+}
+//.gal-item2 {
+	width:90%;
+	margin:8px;
+	padding:0;
+	height: auto;
+}
+}
 </style>
 </head>
 <body>
@@ -3074,8 +3125,8 @@ header {
         <div class="row">
           
             <ul class="row">
-				<h3>Our <span style="color:#1aa6be">Services</span></h3>  
-				<hr style="width:80px;height:2px;background:#1aa6be">
+				<h3 style="text-decoration:underline;color: #1aa5be;">Our <span style="color:#1aa6be">Services</span></h3><br>  
+				
 				
 				<ul class="items2 col-4 row">
 					<!-- ITEM -->

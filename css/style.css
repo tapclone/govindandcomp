@@ -655,10 +655,10 @@ header .quotes a:hover {
 .latest-work .items.row{
 	margin:0 -5px;
 }
-/* .latest-work .col-4 .item {
+ .latest-work .col-4 .item {
 	width: 25%;
 	padding:5px;
-} */
+} 
  .item{
 	width: 34rem !important;
 	
